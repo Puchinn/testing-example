@@ -53,7 +53,6 @@ class PaymentServiceTest {
      */
     @Test
     public void payment_Success() {
-        PaymentService sut = new PaymentService();
         sut.payment(VALID_QUANTITY);
 
         assertEquals("Processing payment of: "

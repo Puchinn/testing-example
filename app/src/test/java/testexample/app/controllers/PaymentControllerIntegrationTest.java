@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class PaymentControllerIntegrationTest {
 
     private static final String PAYMENT_ENDPOINT = "/payment";
-    private static final Integer VALID_QUANTITY = 500;
+    private static final Integer VALID_QUANTITY = 50;
     private static final String INVALID_QUANTITY = "invalid quantity";
 
     @Autowired
